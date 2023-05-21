@@ -146,6 +146,9 @@
       .search{  
         display:flex;  
         position: relative;  
+      } 
+      .front-page  { 
+        width: 100%;
       }  
       .section1{  
         width:1080px;  
