@@ -3,6 +3,9 @@
       padding: 0;  
       box-sizing: border-box;  
     }  
+    html {
+      scroll-behavior: smooth;
+    }
     header{  
     display: flex;  
     justify-content: space-evenly;  
@@ -149,7 +152,16 @@
       } 
       .front-page  { 
         width: 100%;
-      }  
+      }
+      .page-tittle { 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: whitesmoke;
+        color: gray;
+        }
       .section1{  
         width:1080px;  
         overflow:hidden;  
@@ -163,7 +175,7 @@
           height:max-content;  
           flex-wrap: wrap;  
           justify-content:center;  
-          margin:10px auto;  
+          background-color: whitesmoke;
         }  
         .section2 .container .items{  
           margin: 10px;  
